@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 50px;
+            color: #ffffff;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center items horizontally */
+        }
+        .event {
+            width: 300px; /* Width of each event flyer */
+            margin: 20px;
+            padding: 20px;
+            background-color: rgb(115, 19, 19);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease; /* Added transition */
+        }
+        .event:hover {
+            transform: translateY(-5px); /* Floating effect on hover */
+        }
+        .event img {
+            width: 100%; /* Make the image fill its container */
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .event h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .event p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #8C1D40;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #6b1630;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="event">
+        <img src="rageroom.jpg" alt="Event 1">
+        <h2>Event 1</h2>
+        <p>Want To Know More?!</p>
+        <a href="event1_details.html" class="btn">Details</a>
+    </div>
+
+    <div class="event">
+        <img src="ramadannights.jpg" alt="Event 2">
+        <h2>Event 2</h2>
+        <p>Want To Know More?!</p>
+        <a href="event2_details.html" class="btn">Details</a>
+    </div>
+
+    <div class="event">
+        <img src="fashionflyer.jpg" alt="Event 3">
+        <h2>Event 3</h2>
+        <p>Want To Know More?!</p>
+        <a href="event3_details.html" class="btn">Details</a>
+    </div>
+
+    <div class="event">
+        <img src="puppycuddlepuddle.jpg" alt="Event 4">
+        <h2>Event 4 </h2>
+        <p>Want To Know More?!</p>
+        <a href="event4_details.html" class="btn">Details</a>
+    </div>
+
+    <div class="event">
+        <img src="artonthequad.jpg" alt="Event 5">
+        <h2>Event 5</h2>
+        <p>Want To Know More?!</p>
+        <a href="event5_details.html" class="btn">Details</a>
+    </div>
+
+    <!-- Add more event flyers here as needed -->
+
+</div>
+
+</body>
+</html>
