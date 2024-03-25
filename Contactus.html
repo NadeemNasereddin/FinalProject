@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #8C1D40;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        .contact-card {
+            width: 300px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+            text-align: center;
+        }
+        .contact-card:hover {
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+        }
+        .contact-card h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .contact-card p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #8C1D40;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #6b1630;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Contact Us</h1>
+    <div class="contact-info">
+        <div class="contact-card">
+            <h2>Visit Us</h2>
+            <p>Guilford College</p>
+            <p>5800 W. Friendly Ave.</p>
+            <p>Greensboro, NC 27410</p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Guilford+College+5800+W.+Friendly+Ave.+Greensboro,+NC+27410" class="btn" target="_blank">Get Directions</a>
+        </div>
+        <div class="contact-card">
+            <h2>Call Us</h2>
+            <p>Main Office: (336) 316-2000</p>
+            <p>Admissions: (336) 316-2000</p>
+            <a href="tel:(336) 316-2000" class="btn">Call Now</a>
+        </div>
+        <div class="contact-card">
+            <h2>Email Us</h2>
+            <p>Main Office: admissions@guilford.edu</p>
+            <p>Student Activities: studentactivities@guilford.edu</p>
+            <a href="mailto:admissions@guilford.edu" class="btn">Send Email</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
